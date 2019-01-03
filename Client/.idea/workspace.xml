@@ -12,10 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="310c57a9-9f8c-4885-bead-b8939c79786b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Client.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Client.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConnectionHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConnectionHandler.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -31,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Client.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+            <state relative-caret-position="450">
+              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -130,7 +126,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Client" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="127.0.0.1 7777" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Client" TARGET_NAME="Client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Client" RUN_TARGET_NAME="Client">
+    <configuration name="Client" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="192.168.43.104 7777" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Client" TARGET_NAME="Client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Client" RUN_TARGET_NAME="Client">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -156,7 +152,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74852000" />
+    <option name="totallyTimeSpent" value="77604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -292,8 +288,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Client.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        <state relative-caret-position="450">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>

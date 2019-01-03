@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a7cd1b-b578-4941-a026-f2d001618157" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSEncoderDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSEncoderDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSProtocol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSTpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/TPCMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/EchoClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/ReactorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/ReactorMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/newsfeed/NewsFeedServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/newsfeed/NewsFeedServerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/BaseServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/BaseServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/Reactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/Reactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSProtocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bgu/spl/net/impl/BGSTPC/BGSEncoderDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bgu/spl/net/impl/BGSTPC/BGSProtocol$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bgu/spl/net/impl/BGSTPC/BGSProtocol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bgu/spl/net/impl/BGSTPC/BGSTpc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bgu/spl/net/impl/BGSTPC/EchoClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bgu/spl/net/impl/BGSTPC/ReactorMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bgu/spl/net/impl/newsfeed/NewsFeedServerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bgu/spl/net/impl/newsfeed/NewsFeedServerMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bgu/spl/net/srv/BaseServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bgu/spl/net/srv/BaseServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bgu/spl/net/srv/Reactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bgu/spl/net/srv/Reactor.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSEncoderDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="158" selection-start-line="158" selection-end-line="158" />
+            <state relative-caret-position="170">
+              <caret line="260" column="19" selection-start-line="260" selection-start-column="19" selection-end-line="260" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -49,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/ConnectionsImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1159">
-              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+            <state relative-caret-position="244">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -67,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/BlockingConnectionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="244">
+              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
               <folding>
                 <element signature="e#662#663#0" expanded="true" />
                 <element signature="e#693#694#0" expanded="true" />
@@ -89,10 +90,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSProtocol.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="358" column="20" selection-start-line="358" selection-start-column="20" selection-end-line="358" selection-end-column="20" />
+            <state relative-caret-position="118">
+              <caret line="414" column="67" selection-start-line="414" selection-start-column="67" selection-end-line="414" selection-end-column="67" />
               <folding>
-                <element signature="e#21234#21235#0" expanded="true" />
+                <element signature="e#21372#21373#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/NonBlockingConnectionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+            <state relative-caret-position="209">
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
               <folding>
                 <element signature="e#3678#3679#0" expanded="true" />
                 <element signature="e#3807#3808#0" expanded="true" />
@@ -150,6 +151,8 @@
       <find>CLOSE</find>
       <find>shouldTerminate</find>
       <find>sh</find>
+      <find>LOGOUT</find>
+      <find>REGISTER</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSProtocol.java" />
         <option value="$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/BlockingConnectionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/NonBlockingConnectionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSProtocol.java" />
       </list>
     </option>
   </component>
@@ -251,25 +255,6 @@
               <item name="impl" type="462c0819:PsiDirectoryNode" />
               <item name="BGSServer" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spl-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="Database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spl-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="srv" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -279,9 +264,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546530780110" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546533347885" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -497,7 +483,13 @@
           <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSProtocol.java</url>
           <line>359</line>
           <properties />
-          <option name="timeStamp" value="111" />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/BlockingConnectionHandler.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="114" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -675,13 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/ConnectionsImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/Reactor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1786">
@@ -689,27 +674,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSEncoderDecoder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/NonBlockingConnectionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="158" selection-start-line="158" selection-end-line="158" />
+        <state relative-caret-position="209">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="e#3678#3679#0" expanded="true" />
+            <element signature="e#3807#3808#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSProtocol.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/ConnectionsImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="358" column="20" selection-start-line="358" selection-start-column="20" selection-end-line="358" selection-end-column="20" />
-          <folding>
-            <element signature="e#21234#21235#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="244">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/BlockingConnectionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="244">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
           <folding>
             <element signature="e#662#663#0" expanded="true" />
             <element signature="e#693#694#0" expanded="true" />
@@ -717,14 +703,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/NonBlockingConnectionHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSProtocol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        <state relative-caret-position="118">
+          <caret line="414" column="67" selection-start-line="414" selection-start-column="67" selection-end-line="414" selection-end-column="67" />
           <folding>
-            <element signature="e#3678#3679#0" expanded="true" />
-            <element signature="e#3807#3808#0" expanded="true" />
+            <element signature="e#21372#21373#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSEncoderDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="260" column="19" selection-start-line="260" selection-start-column="19" selection-end-line="260" selection-end-column="19" />
         </state>
       </provider>
     </entry>

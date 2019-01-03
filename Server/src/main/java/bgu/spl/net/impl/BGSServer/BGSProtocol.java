@@ -408,10 +408,11 @@ public class BGSProtocol implements BidiMessagingProtocol<String> {
      */
     private void handleRegister(String[] parts) {
         synchronized (_usersLock) {
+            User userCheck=null;
             String user_name = parts[1];
             String password = parts[2];
-            //check if doesn't exist
-            if (_db.getRegisteredUsersHM().get(user_name) == null) {
+            //check if doesn't exist and im not logged ins
+            if (_db.getRegisteredUsersHM().get(user_name) == null&&((userCheck=_db.getUserByConId(_CurrConID))==null||!userCheck.is_isLoggedIn())) {
 
                 //add a user with the following name and password to the Users data structure
                 //connectionid=-1 means that this user has been never logged in
