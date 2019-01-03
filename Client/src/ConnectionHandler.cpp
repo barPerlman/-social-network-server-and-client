@@ -375,10 +375,10 @@ bool ConnectionHandler::createNotification(std::string& frame){
 
     std::string content (frameVector.data(), frameVector.size());
 
-    if (messageOpcode==49)  // public
-        frame = "> NOTIFICATION Public " + postingUser+" "+content;
+    if (messageOpcode==1)  // public
+        frame = "> NOTIFICATION Public " + postingUser+content;
     else  // pm
-        frame = "> NOTIFICATION PM "+ postingUser+" "+content;
+        frame = "> NOTIFICATION PM "+ postingUser+content;
 }
 
 /**
@@ -398,7 +398,6 @@ bool ConnectionHandler::createAck(std::string& frame) {
         short numOfUsers = getShort(frame, 2);
         if (numOfUsers == -1)
             return false;
-
 
         frame = "";
 

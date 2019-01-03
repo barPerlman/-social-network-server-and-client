@@ -20,7 +20,7 @@ Client::Client(std::string host, short port, int id): connectionHandler(host, po
  * The method that the thread threadWrite is responsible for.
  */
 void Client::runWriter(){
-    while(!this->stop)  {
+    while(!this->stop && this->connectionHandler.getIsLoggedOut()==false)  {
         if (this->connectionHandler.getIsLoggedOut()==false) {
             const short bufsize(1024);
             char buf[bufsize];
@@ -34,6 +34,7 @@ void Client::runWriter(){
                 //break;
             }
         }
+        else std::cerr << "terminate run writer" << std::endl;
     }
 }
 
@@ -41,7 +42,7 @@ void Client::runWriter(){
  * The method that the thread threadRead is responsible for.
  */
 void Client::runReader(){
-    while(!this->stop) {
+    while(!this->stop && this->connectionHandler.getIsLoggedOut()==false) {
         if (this->connectionHandler.getIsLoggedOut()==false){
             std::string answer;
 
@@ -61,6 +62,7 @@ void Client::runReader(){
                 }
             }
         }
+        else std::cerr << "terminate run reader" << std::endl;
     }
 }
 
@@ -97,3 +99,52 @@ Client :: ~Client() {
  */
 Client :: Client(const Client &other): stop(other.stop), id(other.id), clientName(other.clientName), connectionHandler("11", 1){
 }
+
+/**
+ * Move constructor - this method makes a copy of this Client, saves it in the given Client "other"
+ * and deletes this Client.
+ *
+ * @param other - the Client in which the copy of this Client will be saved.
+
+Client :: Client(Client&& other): orderPrint(other.orderPrint),capacity(other.capacity),numberTable(other.numberTable),open(other.open),customersList(), orderList(){
+    customersList = std:: move(other.customersList);
+    orderList = std:: move(other.orderList);
+    other.open = false;
+}
+*/
+/**
+ * Copy assignment - this method makes a copy of the given Client "other" and saves it in this Client.
+ *
+ * @param other - the Client that this Client will be identical to.
+
+Client& Client :: operator=(const Client &other) {
+    if (this != &other) {
+        clear();
+        for (Customer *customer:other.customersList)
+            this->customersList.push_back(customer->clone());
+        for (OrderPair orderPair:other.orderList) {
+            OrderPair op(orderPair.first, orderPair.second);
+            orderList.push_back(op);
+        }
+    }
+    return *this;
+
+}
+*/
+/**
+ * Move assignment - this method makes a copy of the given Client "other", saves it in this Client
+ * and deletes the given Client "other".
+ *
+ * @param other - the Client that this Client will be identical to.
+
+Client &Client::operator=(Client &&other) {
+    if (this != &other) {
+        clear();
+        customersList = std::move(other.customersList);
+        orderList = std::move(other.orderList);
+        open = other.open;
+        capacity = other.capacity;
+        numberTable = other.numberTable;
+    }
+    return *this;
+} */
