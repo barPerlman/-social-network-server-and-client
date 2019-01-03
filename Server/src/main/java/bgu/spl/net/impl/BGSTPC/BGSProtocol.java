@@ -363,7 +363,6 @@ public class BGSProtocol implements BidiMessagingProtocol<String> {
             } else {   //perform logout
                 user.set_isLoggedIn(false);                     //update status in data structures
                 _activeCon.send(_CurrConID, "10" + " 3");     //return an ACK message to Client
-                _activeCon.disconnect(_CurrConID);              //terminate the suit Client
                 shouldTerminate = true;       //verify its the right place to put it!!!
             }
         }

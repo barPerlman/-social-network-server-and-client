@@ -21,16 +21,25 @@ public class NonBlockingConnectionHandler<T> implements java.io.Closeable,Connec
     private final Queue<ByteBuffer> writeQueue = new ConcurrentLinkedQueue<>();
     private final SocketChannel chan;
     private final Reactor reactor;
+    private ConnectionsImpl _connections;
+    private int _conIdToInsert;
 
     public NonBlockingConnectionHandler(
             MessageEncoderDecoder<T> reader,
             BidiMessagingProtocol<T> protocol,
             SocketChannel chan,
-            Reactor reactor) {
+            Reactor reactor,ConnectionsImpl con) {
         this.chan = chan;
         this.encdec = reader;
         this.protocol = protocol;
         this.reactor = reactor;
+        _connections=con;
+
+        //add the connection handler to data structure in connectionsImpl
+        _conIdToInsert=_connections.connect(this);
+        this.getProtocol().start(_conIdToInsert,_connections);
+
+
     }
 
     public Runnable continueRead() {
@@ -47,14 +56,13 @@ public class NonBlockingConnectionHandler<T> implements java.io.Closeable,Connec
             buf.flip();
             return () -> {
                 try {
+
+
                     while (buf.hasRemaining()) {
                         T nextMessage = encdec.decodeNextByte(buf.get());
                         if (nextMessage != null) {
-                            /*T response =*/ protocol.process(nextMessage);
-                           // if (response != null) {
-                          //      writeQueue.add(ByteBuffer.wrap(encdec.encode(response)));
-                            //    reactor.updateInterestedOps(chan, SelectionKey.OP_READ | SelectionKey.OP_WRITE);
-                            //}
+                            protocol.process(nextMessage);
+
                         }
                     }
                 } finally {
@@ -63,6 +71,7 @@ public class NonBlockingConnectionHandler<T> implements java.io.Closeable,Connec
             };
         } else {
             releaseBuffer(buf);
+
             close();
             return null;
         }
@@ -98,7 +107,11 @@ public class NonBlockingConnectionHandler<T> implements java.io.Closeable,Connec
         }
 
         if (writeQueue.isEmpty()) {
-            if (protocol.shouldTerminate()) close();
+            if (protocol.shouldTerminate()){
+                _connections.disconnect(_conIdToInsert);
+
+                close();
+            }
             else reactor.updateInterestedOps(chan, SelectionKey.OP_READ);
         }
     }
@@ -115,6 +128,11 @@ public class NonBlockingConnectionHandler<T> implements java.io.Closeable,Connec
 
     private static void releaseBuffer(ByteBuffer buff) {
         BUFFER_POOL.add(buff);
+    }
+
+    //getter for the protocol of the handler
+    public BidiMessagingProtocol<T> getProtocol() {
+        return protocol;
     }
 
     @Override

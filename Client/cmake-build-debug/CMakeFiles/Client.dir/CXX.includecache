@@ -34,25 +34,3 @@ thread
 boost/asio.hpp
 -
 
-/home/barper/spl/Assignment3/SPLAss3/Client/src/ClientMain.cpp
-stdlib.h
--
-../include/ConnectionHandler.h
-/home/barper/spl/Assignment3/SPLAss3/Client/include/ConnectionHandler.h
-../include/Client.h
-/home/barper/spl/Assignment3/SPLAss3/Client/include/Client.h
-thread
--
-
-/home/barper/spl/Assignment3/SPLAss3/Client/src/ConnectionHandler.cpp
-../include/ConnectionHandler.h
-/home/barper/spl/Assignment3/SPLAss3/Client/include/ConnectionHandler.h
-string
--
-iostream
--
-boost/asio.hpp
--
-mutex
--
-

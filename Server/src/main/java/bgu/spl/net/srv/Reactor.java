@@ -104,9 +104,8 @@ public class Reactor<T> implements Server<T> {
                 readerFactory.get(),
                 protocolFactory.get(),
                 clientChan,
-                this);
-        int _conIdToInsert=_connections.connect(handler);
-        ((BGSProtocol)protocolFactory).start(_conIdToInsert,(ConnectionsImpl<String>)_connections);
+                this,_connections);
+
 
         clientChan.register(selector, SelectionKey.OP_READ, handler);
     }

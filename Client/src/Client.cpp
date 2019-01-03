@@ -34,7 +34,7 @@ void Client::runWriter(){
                 //break;
             }
         }
-        else std::cerr << "terminate run writer" << std::endl;
+     //   else std::cerr << "terminate run writer" << std::endl;
     }
 }
 
@@ -62,7 +62,7 @@ void Client::runReader(){
                 }
             }
         }
-        else std::cerr << "terminate run reader" << std::endl;
+        //else std::cerr << "terminate run reader" << std::endl;
     }
 }
 
