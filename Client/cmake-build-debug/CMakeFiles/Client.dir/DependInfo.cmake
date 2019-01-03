@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/barper/spl/Assignment3/SPLAss3/Client/src/Client.cpp" "/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/CMakeFiles/Client.dir/src/Client.cpp.o"
-  "/home/barper/spl/Assignment3/SPLAss3/Client/src/ClientMain.cpp" "/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/CMakeFiles/Client.dir/src/ClientMain.cpp.o"
-  "/home/barper/spl/Assignment3/SPLAss3/Client/src/ConnectionHandler.cpp" "/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/CMakeFiles/Client.dir/src/ConnectionHandler.cpp.o"
+  "/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/src/Client.cpp" "/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/CMakeFiles/Client.dir/src/Client.cpp.o"
+  "/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/src/ClientMain.cpp" "/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/CMakeFiles/Client.dir/src/ClientMain.cpp.o"
+  "/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/src/ConnectionHandler.cpp" "/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/CMakeFiles/Client.dir/src/ConnectionHandler.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

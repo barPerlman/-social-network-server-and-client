@@ -158,8 +158,6 @@ public class BGSProtocol implements BidiMessagingProtocol<String> {
                     } else {    //the dstUser is logged out then send the message to his waiting messages list
                         dstUser.get_awaitingMessages().add(new PmMessage(targetUser, contentMsg, user.get_user_name()));
                     }
-                    //send ack message
-                    _activeCon.send(_CurrConID, "10" + " 6");
                 } else {// the reciepient is not registered send error message
                     _activeCon.send(_CurrConID, "11" + " 6");
                 }
@@ -190,8 +188,6 @@ public class BGSProtocol implements BidiMessagingProtocol<String> {
                 //publish the post to followers or mentioned by @ tag
                 publishPost(user, contentMsg);    //publish the msg to the logged in required or add to their wait list if loggedout
                 user.increaseNumOfPosts();  //update amount of published posts by the user
-                //send ack msg
-                _activeCon.send(_CurrConID, "10" + " 5");
             } else {//the user doesn't exist or logged out
                 //send error message
                 _activeCon.send(_CurrConID, "11" + " 5");

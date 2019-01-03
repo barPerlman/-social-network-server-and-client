@@ -1,23 +1,12 @@
-/snap/clion/57/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/barper/spl/Assignment3/SPLAss3/Client
--- The C compiler identification is GNU 7.3.0
--- The CXX compiler identification is GNU 7.3.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /usr/bin/c++
--- Check for working CXX compiler: /usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
+/snap/clion/57/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/moran/Desktop/ass3/Ass3/SPLAss3/Client
+-- start running cmake...
 -- Boost version: 1.65.1
 -- Found the following Boost libraries:
---   filesystem
---   regex
 --   system
+--   filesystem
+-- Boost_INCLUDE_DIRS: /usr/include
+-- Boost_LIBRARIES: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+-- Boost_VERSION: 106501
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug
+-- Build files have been written to: /home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug
