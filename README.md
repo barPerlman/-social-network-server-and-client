@@ -1,2 +1,2 @@
 # SPLAss3
-assignment3 bgu social
+assignment 3 SPL at subjuct network and Client server
