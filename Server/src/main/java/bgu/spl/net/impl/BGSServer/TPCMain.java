@@ -1,11 +1,10 @@
-package bgu.spl.net.impl.BGSTPC;
+package bgu.spl.net.impl.BGSServer;
 
 import bgu.spl.net.impl.Database.Datastructure;
-import bgu.spl.net.impl.newsfeed.NewsFeed;
 import bgu.spl.net.srv.Server;
 
 
-public class BGSTpc {
+public class TPCMain {
 
     public static void main(String[] args) {
 

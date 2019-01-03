@@ -79,7 +79,11 @@ bool ConnectionHandler::sendFrameAscii(const std::string& frame, char delimiter)
     bool result = sendBytes(h, 2); // sending the message's opcode to the server
     if(!result) return false;
 
-    std::string messageContent(frame.substr(indexOfSpace+1, frame.length()-(indexOfSpace+1))); // removing the message's opcode
+    std::string messageContent;
+    if(indexOfSpace < frame.length())
+        messageContent = frame.substr(indexOfSpace+1, frame.length()-(indexOfSpace+1)); // removing the message's opcode
+    else
+        messageContent = "";
 
     if (messageOpcode == 4) { // FOLLOW
         result = followMessage(messageContent);

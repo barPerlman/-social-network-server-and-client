@@ -1,4 +1,4 @@
-package bgu.spl.net.impl.BGSTPC;
+package bgu.spl.net.impl.BGSServer;
 
 import bgu.spl.net.Messages.Message;
 import bgu.spl.net.Messages.PmMessage;

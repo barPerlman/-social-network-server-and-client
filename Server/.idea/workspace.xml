@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a7cd1b-b578-4941-a026-f2d001618157" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSProtocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSEncoderDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSEncoderDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSProtocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSTpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/TPCMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/ReactorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/ReactorMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/newsfeed/NewsFeedServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/newsfeed/NewsFeedServerMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/BaseServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/BaseServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/BlockingConnectionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/BlockingConnectionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/NonBlockingConnectionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/NonBlockingConnectionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/Reactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/Reactor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,7 +38,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSEncoderDecoder.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSEncoderDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
               <caret line="158" selection-start-line="158" selection-end-line="158" />
@@ -46,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/ConnectionsImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1159">
-              <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -55,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/BaseServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -64,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/BlockingConnectionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#662#663#0" expanded="true" />
                 <element signature="e#693#694#0" expanded="true" />
@@ -77,13 +81,13 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/Database/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="355">
-              <caret line="101" column="43" lean-forward="true" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
+              <caret line="101" column="43" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSProtocol.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSProtocol.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="671">
               <caret line="358" column="20" selection-start-line="358" selection-start-column="20" selection-end-line="358" selection-end-column="20" />
@@ -95,7 +99,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/ReactorMain.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/ReactorMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
@@ -107,16 +111,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/Reactor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1786">
-              <caret line="107" selection-start-line="107" selection-end-line="107" />
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSTpc.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/TPCMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -125,10 +129,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/NonBlockingConnectionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+              <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
               <folding>
-                <element signature="e#3714#3715#0" expanded="true" />
-                <element signature="e#3843#3844#0" expanded="true" />
+                <element signature="e#3678#3679#0" expanded="true" />
+                <element signature="e#3807#3808#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -245,7 +249,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="net" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="BGSTPC" type="462c0819:PsiDirectoryNode" />
+              <item name="BGSServer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spl-net" type="b2602c69:ProjectViewProjectNode" />
@@ -275,7 +279,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546529655770" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546530780110" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -291,14 +295,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReactorMain">
-    <configuration name="BGSTpc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bgu.spl.net.impl.BGSTPC.BGSTpc" />
+  <component name="RunManager" selected="Application.TPCMain">
+    <configuration name="ReactorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bgu.spl.net.impl.BGSServer.ReactorMain" />
       <module name="spl-net" />
-      <option name="PROGRAM_PARAMETERS" value="127.0.0.1 7777" />
+      <option name="PROGRAM_PARAMETERS" value="7777 5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bgu.spl.net.impl.BGSTPC.*" />
+          <option name="PATTERN" value="bgu.spl.net.impl.BGSServer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,13 +310,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReactorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bgu.spl.net.impl.BGSTPC.ReactorMain" />
+    <configuration name="TPCMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bgu.spl.net.impl.BGSServer.TPCMain" />
       <module name="spl-net" />
-      <option name="PROGRAM_PARAMETERS" value="7777 5" />
+      <option name="PROGRAM_PARAMETERS" value="127.0.0.1 7777" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bgu.spl.net.impl.BGSTPC.*" />
+          <option name="PATTERN" value="bgu.spl.net.impl.BGSServer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,13 +325,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BGSTpc" />
+      <item itemvalue="Application.TPCMain" />
       <item itemvalue="Application.ReactorMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TPCMain" />
         <item itemvalue="Application.ReactorMain" />
-        <item itemvalue="Application.BGSTpc" />
       </list>
     </recent_temporary>
   </component>
@@ -362,8 +366,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39092872" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39956802" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39092872" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -424,37 +428,37 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSProtocol.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSProtocol.java</url>
           <line>369</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSEncoderDecoder.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSEncoderDecoder.java</url>
           <line>241</line>
           <properties />
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSEncoderDecoder.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSEncoderDecoder.java</url>
           <line>198</line>
           <properties />
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSProtocol.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSProtocol.java</url>
           <line>306</line>
           <properties />
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSProtocol.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSProtocol.java</url>
           <line>278</line>
           <properties />
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSProtocol.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSProtocol.java</url>
           <line>236</line>
           <properties />
           <option name="timeStamp" value="80" />
@@ -472,13 +476,13 @@
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSEncoderDecoder.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSEncoderDecoder.java</url>
           <line>215</line>
           <properties />
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSProtocol.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSProtocol.java</url>
           <line>144</line>
           <properties />
           <option name="timeStamp" value="97" />
@@ -490,7 +494,7 @@
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSProtocol.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSProtocol.java</url>
           <line>359</line>
           <properties />
           <option name="timeStamp" value="111" />
@@ -646,18 +650,18 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/Database/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
-          <caret line="101" column="43" lean-forward="true" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
+          <caret line="101" column="43" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSTpc.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/TPCMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/ReactorMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/ReactorMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
@@ -667,32 +671,32 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/BaseServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/ConnectionsImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1159">
-          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/Reactor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1786">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSEncoderDecoder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSEncoderDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="158" selection-start-line="158" selection-end-line="158" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSTPC/BGSProtocol.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/impl/BGSServer/BGSProtocol.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="671">
           <caret line="358" column="20" selection-start-line="358" selection-start-column="20" selection-end-line="358" selection-end-column="20" />
@@ -705,7 +709,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/BlockingConnectionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#662#663#0" expanded="true" />
             <element signature="e#693#694#0" expanded="true" />
@@ -716,10 +720,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/bgu/spl/net/srv/NonBlockingConnectionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
           <folding>
-            <element signature="e#3714#3715#0" expanded="true" />
-            <element signature="e#3843#3844#0" expanded="true" />
+            <element signature="e#3678#3679#0" expanded="true" />
+            <element signature="e#3807#3808#0" expanded="true" />
           </folding>
         </state>
       </provider>

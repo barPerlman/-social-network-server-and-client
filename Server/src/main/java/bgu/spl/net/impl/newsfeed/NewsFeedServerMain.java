@@ -1,11 +1,5 @@
 package bgu.spl.net.impl.newsfeed;
 
-import bgu.spl.net.impl.BGSTPC.BGSEncoderDecoder;
-import bgu.spl.net.impl.BGSTPC.BGSProtocol;
-
-import bgu.spl.net.impl.newsfeed.NewsFeed;
-import bgu.spl.net.srv.Server;
-
 public class NewsFeedServerMain {
 
     public static void main(String[] args) {

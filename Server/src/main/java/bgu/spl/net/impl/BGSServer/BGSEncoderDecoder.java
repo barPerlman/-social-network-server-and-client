@@ -1,4 +1,4 @@
-package bgu.spl.net.impl.BGSTPC;
+package bgu.spl.net.impl.BGSServer;
 
 import bgu.spl.net.Messages.AckMessage;
 import bgu.spl.net.Messages.ErrorMessage;

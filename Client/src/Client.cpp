@@ -20,7 +20,7 @@ Client::Client(std::string host, short port, int id): connectionHandler(host, po
  * The method that the thread threadWrite is responsible for.
  */
 void Client::runWriter(){
-    while(!this->stop)  {
+    while(!this->stop){
         if (this->connectionHandler.getIsLoggedOut()==false) {
             const short bufsize(1024);
             char buf[bufsize];
@@ -34,8 +34,8 @@ void Client::runWriter(){
                 //break;
             }
         }
-     //   else std::cerr << "terminate run writer" << std::endl;
     }
+    std::cerr << "terminate run writer" << std::endl;
 }
 
 /**
@@ -62,8 +62,9 @@ void Client::runReader(){
                 }
             }
         }
-        //else std::cerr << "terminate run reader" << std::endl;
+
     }
+    std::cerr << "terminate run reader" << std::endl;
 }
 
 /**
