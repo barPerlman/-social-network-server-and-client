@@ -1,4 +1,4 @@
-# Install script for directory: /home/barper/spl/Assignment3/SPLAss3/Client
+# Install script for directory: /home/moran/Desktop/ass3/Ass3/SPLAss3/Client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug"/>
+				<Option working_dir="/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug"/>
+				<Option working_dir="/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Client">
-				<Option output="/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug"/>
+				<Option output="/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 Client"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 Client"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Client/fast">
-				<Option output="/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug"/>
+				<Option output="/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,42 +67,36 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 Client/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 Client/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug"/>
+				<Option working_dir="/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barper/spl/Assignment3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/barper/spl/Assignment3/SPLAss3/Client/include/Client.h">
+		<Unit filename="/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/include/Client.h">
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/barper/spl/Assignment3/SPLAss3/Client/include/ConnectionHandler.h">
+		<Unit filename="/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/src/Client.cpp">
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/barper/spl/Assignment3/SPLAss3/Client/makefile">
+		<Unit filename="/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/src/ClientMain.cpp">
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/barper/spl/Assignment3/SPLAss3/Client/src/Client.cpp">
+		<Unit filename="/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/src/ConnectionHandler.cpp">
 			<Option target="Client"/>
 		</Unit>
-		<Unit filename="/home/barper/spl/Assignment3/SPLAss3/Client/src/ClientMain.cpp">
-			<Option target="Client"/>
-		</Unit>
-		<Unit filename="/home/barper/spl/Assignment3/SPLAss3/Client/src/ConnectionHandler.cpp">
-			<Option target="Client"/>
-		</Unit>
-		<Unit filename="/home/barper/spl/Assignment3/SPLAss3/Client/CMakeLists.txt">
+		<Unit filename="/home/moran/Desktop/ass3/Ass3/SPLAss3/Client/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
