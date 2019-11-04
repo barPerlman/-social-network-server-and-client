@@ -1,2 +1,2 @@
 # SPLAss3
-assignment 3 SPL at subjuct network and Client server
+assignment 3 SPL. The subjuct of this assignment is network and Client server architecture.
